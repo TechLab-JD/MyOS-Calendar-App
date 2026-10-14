@@ -1,0 +1,19 @@
+<div class="app-window" id="CalendarApp">
+  <div class="app-header">
+    <span class="app-title">📅 Calendar</span>
+    <div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div>
+  </div>
+  <div class="app-content">
+    <div class="cal">
+      <div class="cal-head"><button id="cal-prev">‹</button><span id="cal-title"></span><button id="cal-next">›</button></div>
+      <div class="cal-dow"></div>
+      <div id="cal-grid" class="cal-grid"></div>
+      <div class="cal-ev">
+        <div id="cal-sel" class="cal-sel">Pick a day</div>
+        <form id="cal-form" class="cal-form" style="display:none"><input id="cal-input" placeholder="Add an event…" autocomplete="off"><button>Add</button></form>
+        <ul id="cal-list" class="cal-list"></ul>
+      </div>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
